@@ -1,0 +1,38 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+autopublish
+insecure
+iron:router
+aldeed:collection2
+aldeed:autoform
+accounts-password
+accounts-ui
+http
+less
+differential:vulcanize
+reactive-var
+jquery
+yogiben:autoform-file
+zimme:select2-bootstrap3-css
+aldeed:autoform-select2
+cfs:filesystem
+cfs:standard-packages
+cfs:gridfs
+aldeed:delete-button
+cfs:autoform
+houston:admin
+mrt:qr-scanner
+accounts-facebook
+accounts-twitter
+joshowens:shareit
+cfs:s3
+lukemadera:social-share
+biasport:facebook-sdk
+nemo64:bootstrap
+mizzao:timesync
+lepozepo:s3

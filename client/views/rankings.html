@@ -1,0 +1,24 @@
+<template name="rankings">
+	<div start-justified start flex>
+		<div class="tableTab">
+      {{#with currUserRecord}}
+        <strong>Rankings</strong>
+        <div class="padding-20">
+          <div layout horizontal>
+            <div class="col-xs-8 border-1 font-size-18 wraptext"><strong>Users</strong></div>
+            <div class="col-xs-4 border-1 font-size-18 wraptext"><strong>Current Points</strong></div>
+          </div>
+            
+          {{#each getResultsList}}
+          <div layout horizontal>
+              <div class="col-xs-8 border-1 font-size-16 wraptext">{{userEmail}}</div>
+              <div class="col-xs-4 border-1 font-size-16 wraptext">{{totalPoints}}</div>                
+          </div>
+          {{/each}}  
+        </div>
+      {{else}}
+        <strong>Not yet logged in, please login/register to proceed!</strong>
+      {{/with}}
+		</div>
+	</div>
+</template>

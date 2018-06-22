@@ -1,0 +1,43 @@
+<template name="predict">
+	<div start-justified start flex>
+    <div class="tableTab">
+      <strong>My Predictions</strong>
+      <div class="padding-20">
+        {{#each getMatchList}}
+          <div>
+            <a href="#" class={{applyMatchSelected}}>{{team1}} vs {{team2}}</a>
+          </div>
+        {{/each}}
+      </div>
+      <div class="padding-20">
+        {{#with getCurrMatch}}
+          {{#if currPrediction}}
+            {{#autoForm id="updatePredictionForm" doc=currPrediction collection="MyPredictions" type="update"}}
+              {{> afFieldInput name="goal1" placeholder=team1}}
+              {{> afFieldInput name="goal2" placeholder=team2}}
+              <button class="saveItemButton" type="submit">Update Prediction</button>
+            {{/autoForm}}
+          {{else}}
+            {{#autoForm id="insertPredictionForm" collection="MyPredictions" type="insert"}}
+              {{> afFieldInput name="team1" type="hidden" value=team1}}
+              {{> afFieldInput name="team2" type="hidden" value=team2}}
+              {{> afFieldInput name="userId" type="hidden" value=currentUser._id}}
+			        {{> afFieldInput name="userEmail" type="hidden" value=currUserEmail}}
+              {{> afFieldInput name="goal1" placeholder=team1}}
+              {{#if afFieldIsInvalid name='goal1'}}
+                <i class="icon ion-android-alert">{{{afFieldMessage name='goal1'}}}</i>
+              {{/if}}
+              {{> afFieldInput name="goal2" placeholder=team2}}
+              {{#if afFieldIsInvalid name='goal2'}}
+                <i class="icon ion-android-alert">{{{afFieldMessage name='goal2'}}}</i>
+              {{/if}}
+              <button class="addItemButton" type="submit">Save Prediction</button>
+            {{/autoForm}}
+          {{/if}}
+        {{else}}
+          Please click on the match to register your predictions!   
+        {{/with}}
+      </div>
+    </div>
+	</div>
+</template>

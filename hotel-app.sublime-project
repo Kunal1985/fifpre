@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"ternjs": {
+        "libs": ["browser", "underscore", "jquery"],
+        "plugins": {
+            "meteor": {}
+        }
+    }
+}

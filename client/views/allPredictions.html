@@ -1,0 +1,39 @@
+<template name="allpredictions">
+	<div start-justified start flex>
+		<div class="tableTab">
+			<strong>
+				{{#with currUserRecord}}
+          All Predictions
+          <div class="padding-20">
+            <select class="matchSelect">
+                <option>Select One...</option>
+              {{#each getMatchList}}
+                <option value={{getCombinedVal}}>{{team1}} vs {{team2}}</option>
+              {{/each}}
+            </select>
+          </div>
+          <div class="padding-20">
+            {{> singleView}}
+          </div>
+				{{else}}
+					Not yet logged in, please login/register to proceed!	
+				{{/with}}
+			</strong>
+		</div>
+	</div>
+</template>
+
+<template name="singleView">
+    <div class="padding-20">
+      <div layout horizontal>
+        <div class="col-xs-8 border-1 font-size-18 wraptext">User</div>
+        <div class="col-xs-4 border-1 font-size-18 wraptext">Prediction</div>
+      </div>
+      {{#each getAllPredictions}}
+        <div layout horizontal>
+          <div class="col-xs-8 border-1 font-size-16 wraptext">{{userEmail}}</div>
+          <div class="col-xs-4 border-1 font-size-16 wraptext">{{goal1}} - {{goal2}}</div>
+        </div>
+      {{/each}}
+    </div>
+</template>

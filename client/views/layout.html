@@ -1,0 +1,29 @@
+<template name="layout">
+	<div layout horizontal main-content>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<a href="/myaccount"><core-icon src="/icons/home-green.png" class="homeIcon padding-right-20"></core-icon></a>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div layout horizontal>
+				{{> headerItems}}
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			{{> loginButtons}}
+		</div>
+  </div>
+  <div>
+		<img src="/icons/background.png" />
+    {{> yield}}
+  </div>
+</template> 
+
+<template name="headerItems">
+	{{#if isLoggedIn}}
+		<a href="{{pathFor 'myaccount'}}" class="padding-right-20">My Account</a>
+    <a href="{{pathFor 'predict'}}" class="padding-right-20">Predict Now</a>
+		<a href="{{pathFor 'allpredictions'}}" class="padding-right-20">Match Predictions</a>
+		<a href="{{pathFor 'rankings'}}" class="padding-right-20">Rankings</a>
+  {{/if}}
+  <a href="{{pathFor 'rules'}}" class="padding-right-20">Rules</a>
+</template>
