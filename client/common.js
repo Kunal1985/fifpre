@@ -14,14 +14,14 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "Brazil",
-			team2: "Costa Rica"
+			team1: "Belgium",
+			team2: "Tunisia"
 		}, {
-			team1: "Nigeria",
-			team2: "Iceland"
+			team1: "South Korea",
+			team2: "Mexico"
 		}, {
-			team1: "Serbia",
-			team2: "Switzerland"
+			team1: "Germany",
+			team2: "Sweden"
 		}];
   }
 	genericFtns.calcBasePoint = function(predicted, actual){

@@ -55,7 +55,6 @@ Template.predict.events({
 AutoForm.hooks({
 	'insertPredictionForm': {
 		onSuccess: function (operation, result, template) {
-			console.log("insertPredictionForm", result);
 			return false;
 		},
 		onSubmit: function (insertDoc, updateDoc, currentDoc) {
@@ -67,7 +66,6 @@ AutoForm.hooks({
 	},
 	'updatePredictionForm': {
 		onSuccess: function (operation, result, template) {
-			console.log("updatePredictionForm", result);
 			return false;
 		},
 		onSubmit: function (insertDoc, updateDoc, currentDoc) {
