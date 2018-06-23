@@ -1,29 +1,37 @@
 <template name="layout">
-	<div layout horizontal main-content>
-		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-			<a href="/myaccount"><core-icon src="/icons/home-green.png" class="homeIcon padding-right-20"></core-icon></a>
-		</div>
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-			<div layout horizontal>
-				{{> headerItems}}
-			</div>
-		</div>
-		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-			{{> loginButtons}}
-		</div>
-  </div>
-  <div>
-		<img src="/icons/background.png" />
+  <app-header reveals>
+    <app-toolbar class="toolbar toolbar-primary">
+      <div class="visible-md wide" layout horizontal>
+        {{ > headerItems}}
+      </div>
+    </app-toolbar>
+  </app-header>
+  <app-drawer id="drawer" swipe-open></app-drawer>
+  <sample-content size="10">
+    <img src="/icons/background.png" />
     {{> yield}}
-  </div>
-</template> 
+  </sample-content>
+</template>
 
 <template name="headerItems">
-	{{#if isLoggedIn}}
-		<a href="{{pathFor 'myaccount'}}" class="padding-right-20">My Account</a>
+  <paper-item class="toolbar-item toolbar-item-top" style="z-index:1;" data-action="#">
+    {{> loginButtons}}
+  </paper-item>
+  {{#if isLoggedIn}}
+  <paper-item class="toolbar-item" data-action="myaccount">
+    <a href="{{pathFor 'myaccount'}}" class="padding-right-20">My Account</a>
+  </paper-item>
+  <paper-item class="toolbar-item" data-action="predict">
     <a href="{{pathFor 'predict'}}" class="padding-right-20">Predict Now</a>
-		<a href="{{pathFor 'allpredictions'}}" class="padding-right-20">Match Predictions</a>
-		<a href="{{pathFor 'rankings'}}" class="padding-right-20">Rankings</a>
+  </paper-item>
+  <paper-item class="toolbar-item" data-action="allpredictions">
+    <a href="{{pathFor 'allpredictions'}}" class="padding-right-20">Match Predictions</a>
+  </paper-item>
+  <paper-item class="toolbar-item" data-action="rankings">
+    <a href="{{pathFor 'rankings'}}" class="padding-right-20">Rankings</a>
+  </paper-item>
   {{/if}}
-  <a href="{{pathFor 'rules'}}" class="padding-right-20">Rules</a>
+  <paper-item class="toolbar-item" data-action="rules">
+    <a href="{{pathFor 'rules'}}" class="padding-right-20">Rules</a>
+  </paper-item>
 </template>
