@@ -54,17 +54,38 @@ Schemas.MyPredictions = new SimpleSchema({
 });
 MyPredictions.attachSchema(Schemas.MyPredictions);
 
-MyPredictions.allow({
-    insert: function(userId, doc) {
-        console.log("insert userId", userId, doc)
+var resultEntered = function(doc){
+    var resultEntered = ActualPredictions.findOne({team1: doc.team1, team2: doc.team2});
+    if(resultEntered)
         return true;
+
+} 
+
+var updateLocked = function(docId){
+    var currPrediction = MyPredictions.findOne({_id: docId});
+    return resultEntered(currPrediction);
+}
+
+var checkAccess = function(action, userId, doc){
+    if(userId && userId === doc.userId){
+        switch(action){
+            case "Insert": return resultEntered(doc); break;
+            case "Update": return updateLocked(doc._id); break;
+            default: break; 
+        }
+    } else{
+        return true;
+    }
+}
+
+MyPredictions.deny({
+    insert: function(userId, doc) {
+        return checkAccess("Insert", userId, doc);
     },
     update: function(userId, doc, fields, modifier) {
-        console.log("update userId", userId, doc)
-        return true;
+        return checkAccess("Update", userId, doc);
     },
     remove: function(userId, doc) {
-        console.log("remove userId", userId)
-        return true;
+        return checkAccess("Remove", userId, doc);
     }
 });

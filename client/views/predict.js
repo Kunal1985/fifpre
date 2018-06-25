@@ -22,6 +22,17 @@ Template.predict.helpers({
 		}
 		return null;
 	},
+	isLocked: function(){
+		var currSession = Session.get("currMatch");
+		var currUserId = Meteor.userId();
+		if(currSession && currUserId){
+			var data = {
+				team1: currSession.team1,
+				team2: currSession.team2
+			}
+			return ActualPredictions.findOne(data);
+		}
+	},
 	currPrediction: function(){
 		var currSession = Session.get("currMatch");
 		var currUserId = Meteor.userId();
