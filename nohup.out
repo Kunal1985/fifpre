@@ -214,3 +214,18 @@ Vulcanize: Adding all imports...
 => Started your app.
 
 => App running at: http://localhost:3000/
+=> Server modified -- restarting...Vulcanize: Adding all imports...
+                                   [34mI20180625-11:30:09.380(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20180625-11:30:09.380(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20180625-11:30:09.381(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20180625-11:30:09.381(0)? [39m** will still be sent to all clients.
+[34mI20180625-11:30:09.381(0)? [39m**
+[34mI20180625-11:30:09.381(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20180625-11:30:09.381(0)? [39m**
+[34mI20180625-11:30:09.382(0)? [39m**   $ meteor remove autopublish
+[34mI20180625-11:30:09.382(0)? [39m**
+[34mI20180625-11:30:09.382(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20180625-11:30:09.383(0)? [39m** for each collection that you want clients to see.
+[34mI20180625-11:30:09.383(0)? [39m
+[34mI20180625-11:30:10.141(0)? [39mSERVER
+=> Meteor server restarted
