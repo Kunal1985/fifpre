@@ -9,7 +9,7 @@ Template.allpredictions.helpers({
 		return null;
 	},
 	getMatchList: function(){
-		return genericFtns.getMatchList();
+		return genericFtns.getMatchListForAll();
 	},
 	getCombinedVal: function(){
 		return [this.team1, this.team2].join("-");

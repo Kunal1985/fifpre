@@ -26,6 +26,17 @@ Meteor.startup(function () {
 			team1: "Spain",
 			team2: "Morocco"
 		}];
+	}
+	genericFtns.getMatchListForAll = function(){
+		var matchList = genericFtns.getMatchList();
+		var matchViewList = [];
+		for(var i=0; i<matchList.length; i++){
+			var currMatch = matchList[i];
+			var resultsUplaoded = ActualPredictions.findOne({team1: currMatch.team1, team2: currMatch.team2})
+			if(resultsUplaoded)
+				matchViewList.push(currMatch);
+		}
+    return matchViewList;
   }
 	genericFtns.calcBasePoint = function(predicted, actual){
 		var result = genericFtns.getResult(actual.goal1 - actual.goal2);

@@ -12,5 +12,5 @@ Router.map(function() {
 	this.route('rankings');
 	this.route('rules');
 	this.route('results');
-	// this.route('allpredictions');	
+	this.route('allpredictions');	
 });
