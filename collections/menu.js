@@ -45,18 +45,26 @@ Schemas.MyPredictions = new SimpleSchema({
     goal2: {
         type: String,
         label: "Goals for Team 2",
+    },
+    round: {
+        type: String,
+        label: "Round",
+        optional: true
     }
 });
 MyPredictions.attachSchema(Schemas.MyPredictions);
 
-MyPredictions.deny({
+MyPredictions.allow({
     insert: function(userId, doc) {
+        console.log("insert userId", userId, doc)
         return true;
     },
     update: function(userId, doc, fields, modifier) {
+        console.log("update userId", userId, doc)
         return true;
     },
     remove: function(userId, doc) {
+        console.log("remove userId", userId)
         return true;
     }
 });

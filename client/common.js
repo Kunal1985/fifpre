@@ -14,14 +14,17 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "Belgium",
-			team2: "Tunisia"
+			team1: "Saudi Arabia",
+			team2: "Egypt"
 		}, {
-			team1: "South Korea",
-			team2: "Mexico"
+			team1: "Uruguay",
+			team2: "Russia"
 		}, {
-			team1: "Germany",
-			team2: "Sweden"
+			team1: "Iran",
+			team2: "Portugal"
+		}, {
+			team1: "Spain",
+			team2: "Morocco"
 		}];
   }
 	genericFtns.calcBasePoint = function(predicted, actual){
@@ -61,8 +64,14 @@ Meteor.startup(function () {
 				var bonus2 = genericFtns.calcBonus2(doc, currResult);
 				currRanking.userEmail = doc.userEmail;
 				currRanking.totalPoints = basePoints + bonus1 + bonus2;
+				if(doc.round === "R1")
+					currRanking.r1Points = currRanking.totalPoints;
 				users.find(function(currUser){
 					if(currUser.userEmail === doc.userEmail){
+						if(!currUser.r1Points)
+							currUser.r1Points = 0;
+						if(doc.round === "R1")
+							currUser.r1Points = currUser.r1Points + currRanking.r1Points;
 						currUser.totalPoints = currUser.totalPoints + currRanking.totalPoints;
 						userFound = true
 					} 

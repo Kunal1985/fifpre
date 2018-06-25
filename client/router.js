@@ -8,9 +8,9 @@ Router.map(function() {
 		this.render('myaccount');
 	});	
 	this.route('myaccount');
-	// this.route('predict');
+	this.route('predict');
 	this.route('rankings');
 	this.route('rules');
 	this.route('results');
-	this.route('allpredictions');	
+	// this.route('allpredictions');	
 });

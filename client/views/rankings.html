@@ -5,14 +5,18 @@
         <strong>Rankings</strong>
         <div class="padding-20">
           <div layout horizontal>
-            <div class="col-xs-8 border-1 font-size-18 wraptext"><strong>Users</strong></div>
-            <div class="col-xs-4 border-1 font-size-18 wraptext"><strong>Current Points</strong></div>
+            <div class="col-xs-6 border-1 font-size-18 wraptext"><strong>Users</strong></div>
+            <div class="col-xs-2 border-1 font-size-18 wraptext"><strong>Group Stage Round 1+2</strong></div>
+            <div class="col-xs-2 border-1 font-size-18 wraptext"><strong>Group Stage Round 3</strong></div>
+            <div class="col-xs-2 border-1 font-size-18 wraptext"><strong>Current Points</strong></div>
           </div>
             
           {{#each getResultsList}}
           <div layout horizontal>
-              <div class="col-xs-8 border-1 font-size-16 wraptext">{{userEmail}}</div>
-              <div class="col-xs-4 border-1 font-size-16 wraptext">{{totalPoints}}</div>                
+              <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
+              <div class="col-xs-2 border-1 font-size-16 wraptext">{{r1Points}}</div>
+              <div class="col-xs-2 border-1 font-size-16 wraptext">{{r2Points}}</div>
+              <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
           </div>
           {{/each}}  
         </div>

@@ -10,6 +10,12 @@ Template.rankings.helpers({
 	},
 	getResultsList: function(){
 		return genericFtns.calcRankings();
+	},
+	r2Points: function(){
+		if(this.r1Points)
+			return this.totalPoints - this.r1Points;
+		else
+			return 0;	
 	}
 });
 
