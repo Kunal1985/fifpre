@@ -17,22 +17,22 @@
     <div class="padding-20">
       <div layout horizontal>
         <div class="col-xs-3 border-1 font-size-18 wraptext">Match</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Your Prediction</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Actual Result</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Base Points</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Bonus1</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Bonus2</div>
-        <div class="col-xs-2 border-1 font-size-18 wraptext">Total Points</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Your Prediction</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Actual Result</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Base Points</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Bonus1</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Bonus2</div>
+        <div class="col-xs-1 border-1 font-size-18 wraptext">Total Points</div>
       </div>
       {{#each getAllPredictions}}
         <div layout horizontal>
           <div class="col-xs-3 border-1 font-size-16 wraptext">{{team1}} vs {{team2}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{goal1}} - {{goal2}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{actualResult}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{basePoints}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{bonus1}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{bonus2}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{goal1}} - {{goal2}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{actualResult}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{basePoints}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{bonus1}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{bonus2}}</div>
+          <div class="col-xs-1 border-1 font-size-16 wraptext">{{totalPoints}}</div>
         </div>
       {{/each}}
     </div>
