@@ -86,6 +86,6 @@ MyPredictions.deny({
         return checkAccess("Update", userId, doc);
     },
     remove: function(userId, doc) {
-        return checkAccess("Remove", userId, doc);
+        return;
     }
 });
