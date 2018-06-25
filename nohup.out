@@ -228,4 +228,6 @@ Vulcanize: Adding all imports...
 [34mI20180625-11:30:09.383(0)? [39m** for each collection that you want clients to see.
 [34mI20180625-11:30:09.383(0)? [39m
 [34mI20180625-11:30:10.141(0)? [39mSERVER
-=> Meteor server restarted
+=> Meteor server restartedVulcanize: Adding all imports...
+
+=> Client modified -- refreshing
