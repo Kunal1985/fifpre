@@ -15,7 +15,7 @@ Template.rankings.helpers({
 		if(this.r1Points)
 			return this.totalPoints - this.r1Points;
 		else
-			return 0;	
+			return this.totalPoints;	
 	}
 });
 
