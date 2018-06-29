@@ -25,14 +25,25 @@
 
 <template name="singleView">
     <div class="padding-20">
+      <div>
+        <h3>Header Annotations</h3>
+        <p>WR - Winner</p>
+        <p>WT - Extra Time</p>
+        <p>PT - Penalties</p>
+        <p>&nbsp;</p>
+      </div>
       <div layout horizontal>
-        <div class="col-xs-8 border-1 font-size-18 wraptext">User</div>
-        <div class="col-xs-4 border-1 font-size-18 wraptext">Prediction</div>
+        <div class="col-xs-6 border-1 font-size-18 wraptext">User</div>
+        <div class="col-xs-2 border-1 font-size-18 wraptext">WR</div>
+        <div class="col-xs-2 border-1 font-size-18 wraptext">ET</div>
+        <div class="col-xs-2 border-1 font-size-18 wraptext">PT</div>
       </div>
       {{#each getAllPredictions}}
         <div layout horizontal>
-          <div class="col-xs-8 border-1 font-size-16 wraptext">{{userEmail}}</div>
-          <div class="col-xs-4 border-1 font-size-16 wraptext">{{goal1}} - {{goal2}}</div>
+          <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{winner}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{extraTime}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{penalties}}</div>
         </div>
       {{/each}}
     </div>

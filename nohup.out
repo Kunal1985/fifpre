@@ -287,3 +287,18 @@ Vulcanize: Adding all imports...
 [34mW20180629-04:55:13.419(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
 [34mW20180629-04:55:13.419(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
 [34mW20180629-04:55:13.419(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Server modified -- restarting...Vulcanize: Adding all imports...
+                                   [34mI20180629-07:28:52.859(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20180629-07:28:52.860(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20180629-07:28:52.860(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20180629-07:28:52.861(0)? [39m** will still be sent to all clients.
+[34mI20180629-07:28:52.861(0)? [39m**
+[34mI20180629-07:28:52.861(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20180629-07:28:52.862(0)? [39m**
+[34mI20180629-07:28:52.862(0)? [39m**   $ meteor remove autopublish
+[34mI20180629-07:28:52.862(0)? [39m**
+[34mI20180629-07:28:52.863(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20180629-07:28:52.863(0)? [39m** for each collection that you want clients to see.
+[34mI20180629-07:28:52.863(0)? [39m
+[34mI20180629-07:28:53.682(0)? [39mSERVER
+=> Meteor server restarted
