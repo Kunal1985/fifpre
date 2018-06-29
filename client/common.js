@@ -14,17 +14,29 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "Australia",
-			team2: "Peru"
+			team1: "Mexico",
+			team2: "Sweden"
 		}, {
-			team1: "Denmark",
-			team2: "France"
+			team1: "South Korea",
+			team2: "Germany"
 		}, {
-			team1: "Nigeria",
-			team2: "Argentina"
+			team1: "Switzerland",
+			team2: "Costa Rica"
 		}, {
-			team1: "Iceland",
-			team2: "Croatia"
+			team1: "Serbia",
+			team2: "Brazil"
+		},{
+			team1: "Senegal",
+			team2: "Columbia"
+		}, {
+			team1: "Japan",
+			team2: "Poland"
+		}, {
+			team1: "England",
+			team2: "Belgium"
+		}, {
+			team1: "Panama",
+			team2: "Tunisia"
 		}];
 	}
 	genericFtns.getMatchListForAll = function(){
