@@ -243,3 +243,19 @@ Vulcanize: Adding all imports...
 => Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
 => Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
 => Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Exited from signal: SIGKILL
+Vulcanize: Adding all imports...
+[34mI20180629-04:46:09.444(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20180629-04:46:09.446(0)? [39m**
+[34mI20180629-04:46:09.447(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20180629-04:46:09.446(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20180629-04:46:09.446(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20180629-04:46:09.446(0)? [39m** will still be sent to all clients.
+[34mI20180629-04:46:09.447(0)? [39m**
+[34mI20180629-04:46:09.449(0)? [39m**   $ meteor remove autopublish
+[34mI20180629-04:46:09.449(0)? [39m**
+[34mI20180629-04:46:09.449(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20180629-04:46:09.449(0)? [39m** for each collection that you want clients to see.
+[34mI20180629-04:46:09.450(0)? [39m
+[34mI20180629-04:46:10.194(0)? [39mSERVER
+=> Meteor server restarted
