@@ -54,6 +54,12 @@ Template.predict.helpers({
 		if(currSession && currSession.team1 === this.team1 && currSession.team2 === this.team2)
 			return "matchSelect matchSelectColor"
 		return "matchSelect";	
+	},
+	teamOptions: function(){
+		return [
+			{ label: this.team1, value: this.team1 },
+			{ label: this.team2, value: this.team2 },
+		]
 	}
 });
 

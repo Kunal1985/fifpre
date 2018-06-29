@@ -13,22 +13,19 @@
         {{#with getCurrMatch}}
           {{#if currResults}}
             {{#autoForm id="updateResultsForm" doc=currResults collection="ActualPredictions" type="update"}}
-              {{> afFieldInput name="goal1" placeholder=team1}}
-              {{> afFieldInput name="goal2" placeholder=team2}}
+              {{> afQuickField name="winner" firstOption="(Select Something)" options=teamOptions}}
+              {{> afQuickField name="extraTime" }}
+              {{> afQuickField name="penalties" }}
               <button class="saveItemButton" type="submit">Update Prediction</button>
             {{/autoForm}}
           {{else}}
             {{#autoForm id="insertResultsForm" collection="ActualPredictions" type="insert"}}
+              {{> afFieldInput name="round" type="hidden" value="R2"}}
               {{> afFieldInput name="team1" type="hidden" value=team1}}
               {{> afFieldInput name="team2" type="hidden" value=team2}}
-              {{> afFieldInput name="goal1" placeholder=team1}}
-              {{#if afFieldIsInvalid name='goal1'}}
-                <i class="icon ion-android-alert">{{{afFieldMessage name='goal1'}}}</i>
-              {{/if}}
-              {{> afFieldInput name="goal2" placeholder=team2}}
-              {{#if afFieldIsInvalid name='goal2'}}
-                <i class="icon ion-android-alert">{{{afFieldMessage name='goal2'}}}</i>
-              {{/if}}
+              {{> afQuickField name="winner" firstOption="(Select Something)" options=teamOptions}}
+              {{> afQuickField name="extraTime" }}
+              {{> afQuickField name="penalties" }}
               <button class="addItemButton" type="submit">Save Prediction</button>
             {{/autoForm}}
           {{/if}}

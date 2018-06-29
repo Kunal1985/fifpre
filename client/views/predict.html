@@ -13,11 +13,15 @@
         {{#with getCurrMatch}}          
           {{#with currPrediction}}
             {{#if isLocked}}
-              You Predicted {{team1}} ({{goal1}}) - {{team2}} ({{goal2}})
+              <h3>You Predicted</h3>
+              <p>Winner: {{winner}}</p>
+              <p>Extra Time: {{extraTime}}</p>
+              <p>Penalties: {{penalties}}</p>
             {{else}}
               {{#autoForm id="updatePredictionForm" doc=currPrediction collection="MyPredictions" type="update"}}
-                {{> afFieldInput name="goal1" placeholder=team1}}
-                {{> afFieldInput name="goal2" placeholder=team2}}
+                {{> afQuickField name="winner" firstOption="(Select Something)" options=teamOptions}}
+                {{> afQuickField name="extraTime" }}
+                {{> afQuickField name="penalties" }}
                 <button class="saveItemButton" type="submit">Update Prediction</button>
               {{/autoForm}}
             {{/if}}
@@ -27,14 +31,9 @@
               {{> afFieldInput name="team2" type="hidden" value=team2}}
               {{> afFieldInput name="userId" type="hidden" value=currentUser._id}}
               {{> afFieldInput name="userEmail" type="hidden" value=currUserEmail}}
-              {{> afFieldInput name="goal1" placeholder=team1}}
-              {{#if afFieldIsInvalid name='goal1'}}
-                <i class="icon ion-android-alert">{{{afFieldMessage name='goal1'}}}</i>
-              {{/if}}
-              {{> afFieldInput name="goal2" placeholder=team2}}
-              {{#if afFieldIsInvalid name='goal2'}}
-                <i class="icon ion-android-alert">{{{afFieldMessage name='goal2'}}}</i>
-              {{/if}}
+              {{> afQuickField name="winner" firstOption="(Select One)" options=teamOptions}}
+              {{> afQuickField name="extraTime" }}
+              {{> afQuickField name="penalties" }}
               <button class="addItemButton" type="submit">Save Prediction</button>
             {{/autoForm}}
           {{/with}}

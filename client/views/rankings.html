@@ -1,26 +1,44 @@
 <template name="rankings">
-	<div start-justified start flex>
-		<div class="tableTab">
+  <div start-justified start flex>
+    <div class="tableTab">
       {{#with currUserRecord}}
-        <strong>Rankings</strong>
-        <div class="padding-20">
-          <div layout horizontal>
-            <div class="col-xs-6 border-1 font-size-18 wraptext"><strong>Users</strong></div>
-            <div class="col-xs-2 border-1 font-size-18 wraptext"><strong>Group Stage Round 3</strong></div>
-            <div class="col-xs-2 border-1 font-size-18 wraptext"><strong>Total Points</strong></div>
-          </div>
-            
-          {{#each getResultsList}}
-          <div layout horizontal>
-              <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
-              <div class="col-xs-2 border-1 font-size-16 wraptext">{{r2Points}}</div>
-              <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
-          </div>
-          {{/each}}  
+      <strong>Rankings</strong>
+      <div class="padding-20">
+        <div>
+          <h3>Header Annotations</h3>
+          <p>GSR3 - Group Stage Round 3</p>
+          <p>KSQF - Knockout Stage + Quarter Finals</p>
+          <p>TP - Total Points</p>
+          <p>&nbsp;</p>
         </div>
+        <div layout horizontal>
+          <div class="col-xs-6 border-1 font-size-18 wraptext">
+            <strong>Users</strong>
+          </div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">
+            <strong>GSR3</strong>
+          </div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">
+              <strong>KSQF</strong>
+            </div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">
+            <strong>TP</strong>
+          </div>
+        </div>
+
+        {{#each getResultsList}}
+        <div layout horizontal>
+          <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{r1Points}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{r2Points}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
+        </div>
+        {{/each}}
+        <div class="border-1">&nbsp;</div>
+      </div>
       {{else}}
-        <strong>Not yet logged in, please login/register to proceed!</strong>
+      <strong>Not yet logged in, please login/register to proceed!</strong>
       {{/with}}
-		</div>
-	</div>
+    </div>
+  </div>
 </template>
