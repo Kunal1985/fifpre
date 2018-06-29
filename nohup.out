@@ -301,4 +301,41 @@ Vulcanize: Adding all imports...
 [34mI20180629-07:28:52.863(0)? [39m** for each collection that you want clients to see.
 [34mI20180629-07:28:52.863(0)? [39m
 [34mI20180629-07:28:53.682(0)? [39mSERVER
-=> Meteor server restarted
+=> Meteor server restartedVulcanize: Adding all imports...
+
+=> Client modified -- refreshingVulcanize: Adding all imports...
+
+=> Couldn't spawn process: channel closed
+=> Client modified -- refreshing
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+Unexpected mongo exit code null. Restarting.
+
+Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+directory will be incorrect if you ever attempt to perform any Meteor tasks as
+a normal user. If you need to fix your permissions, run the following command
+from the root of your project:
+
+  sudo chown -Rh <username> .meteor/local
+
+[[[[[ ~/fifpre/fifpre ]]]]]
+
+=> Started proxy.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Started MongoDB.
+Vulcanize: Adding all imports...
+[34mI20180629-08:34:58.350(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20180629-08:34:58.353(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20180629-08:34:58.353(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20180629-08:34:58.353(0)? [39m** will still be sent to all clients.
+[34mI20180629-08:34:58.354(0)? [39m**
+[34mI20180629-08:34:58.354(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20180629-08:34:58.354(0)? [39m**
+[34mI20180629-08:34:58.354(0)? [39m**   $ meteor remove autopublish
+[34mI20180629-08:34:58.355(0)? [39m**
+[34mI20180629-08:34:58.355(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20180629-08:34:58.355(0)? [39m** for each collection that you want clients to see.
+[34mI20180629-08:34:58.355(0)? [39m
+[34mI20180629-08:34:58.805(0)? [39mSERVER
+=> Started your app.
+
+=> App running at: http://localhost:3000/
