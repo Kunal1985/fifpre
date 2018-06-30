@@ -16,22 +16,22 @@
             <strong>Users</strong>
           </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
-            <strong>GSR3</strong>
+            <strong class={{isHighlightR1}}>GSR3</strong>
           </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
-              <strong>KSQF</strong>
+              <strong class={{isHighlightR2}}>KSQF</strong>
             </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
-            <strong>TP</strong>
+            <strong class={{isHighlightTotal}}>TP</strong>
           </div>
         </div>
 
         {{#each getResultsList}}
         <div layout horizontal>
           <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{r1Points}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{r2Points}}</div>
-          <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR1}}">{{r1Points}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR2}}">{{r2Points}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightTotal}}">{{totalPoints}}</div>
         </div>
         {{/each}}
         <div class="border-1">&nbsp;</div>
