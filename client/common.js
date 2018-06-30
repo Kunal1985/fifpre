@@ -76,7 +76,7 @@ Meteor.startup(function () {
 	}
 	genericFtns.calcWinnerPoints = function(predicted, actual){
     if(predicted.winner == actual.winner)
-      return 5;
+      return 7;
     return 0;  
   }
 	genericFtns.calcETPoints = function(predicted, actual){
