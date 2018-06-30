@@ -39,6 +39,7 @@ Template.results.helpers({
 		return [
 			{ label: this.team1, value: this.team1 },
 			{ label: this.team2, value: this.team2 },
+			{ label: "---", value: "---" },
 		]
 	}
 });
