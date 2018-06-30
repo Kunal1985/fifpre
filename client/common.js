@@ -143,7 +143,7 @@ Meteor.startup(function () {
 				return currRanking;
 			});
 		}
-		users.sort(function(a,b){return b.totalPoints - a.totalPoints});
+		users.sort(function(a,b){return b.r2Points - a.r2Points});
 		return users;
 	}
 });
