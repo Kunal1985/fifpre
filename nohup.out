@@ -396,3 +396,36 @@ Vulcanize: Adding all imports...
 => Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
 Vulcanize: Adding all imports...
 => Client modified -- refreshing
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180701-13:09:52.627(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180701-13:09:52.705(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180701-13:09:52.705(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180701-13:09:52.705(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180701-13:09:52.706(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180701-13:09:52.706(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180701-13:09:52.706(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180701-13:09:52.706(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180701-13:09:52.706(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180701-13:09:52.707(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180701-13:09:52.707(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180701-13:09:52.707(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mW20180702-04:07:11.896(0)? (STDERR) [39m[35mError: spawn ENOMEM[39m
+[34mW20180702-04:07:11.897(0)? (STDERR) [39m[35m    at Object.exports.execFile (child_process.js:628:15)[39m
+[34mW20180702-04:07:11.896(0)? (STDERR) [39m[35m    at errnoException (child_process.js:1011:11)[39m
+[34mW20180702-04:07:11.897(0)? (STDERR) [39m[35m    at ChildProcess.spawn (child_process.js:958:11)[39m
+[34mW20180702-04:07:11.897(0)? (STDERR) [39m[35m    at exports.spawn (child_process.js:746:9)[39m
+[34mW20180702-04:07:11.898(0)? (STDERR) [39m[35m    at Object.Package [as handle] (packages/spiderable/spiderable_server.js:105:1)[39m
+[34mW20180702-04:07:11.898(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180702-04:07:11.898(0)? (STDERR) [39m[35m    at middleware (packages/oauth/oauth_server.js:157:1)[39m
+[34mW20180702-04:07:11.898(0)? (STDERR) [39m[35m    at packages/oauth/oauth_server.js:146:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mW20180702-12:26:45.977(0)? (STDERR) [39m[35mError: spawn ENOMEM[39m
+[34mW20180702-12:26:45.991(0)? (STDERR) [39m[35m    at errnoException (child_process.js:1011:11)[39m
+[34mW20180702-12:26:46.033(0)? (STDERR) [39m[35m    at ChildProcess.spawn (child_process.js:958:11)[39m
+[34mW20180702-12:26:46.036(0)? (STDERR) [39m[35m    at exports.spawn (child_process.js:746:9)[39m
+[34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at Object.exports.execFile (child_process.js:628:15)[39m
+[34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at Object.Package [as handle] (packages/spiderable/spiderable_server.js:105:1)[39m
+[34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at middleware (packages/oauth/oauth_server.js:157:1)[39m
+[34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at packages/oauth/oauth_server.js:146:1[39m
