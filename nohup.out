@@ -429,3 +429,36 @@ Vulcanize: Adding all imports...
 [34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
 [34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at middleware (packages/oauth/oauth_server.js:157:1)[39m
 [34mW20180702-12:26:46.037(0)? (STDERR) [39m[35m    at packages/oauth/oauth_server.js:146:1[39m
+
+Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+directory will be incorrect if you ever attempt to perform any Meteor tasks as
+a normal user. If you need to fix your permissions, run the following command
+from the root of your project:
+
+  sudo chown -Rh <username> .meteor/local
+
+[[[[[ ~/fifpre/fifpre ]]]]]
+
+=> Started proxy.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Started MongoDB.
+Vulcanize: Adding all imports...
+[34mI20180702-13:56:22.526(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20180702-13:56:22.530(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20180702-13:56:22.530(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20180702-13:56:22.531(0)? [39m** will still be sent to all clients.
+[34mI20180702-13:56:22.531(0)? [39m**
+[34mI20180702-13:56:22.531(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20180702-13:56:22.532(0)? [39m**
+[34mI20180702-13:56:22.532(0)? [39m**   $ meteor remove autopublish
+[34mI20180702-13:56:22.532(0)? [39m**
+[34mI20180702-13:56:22.533(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20180702-13:56:22.533(0)? [39m** for each collection that you want clients to see.
+[34mI20180702-13:56:22.533(0)? [39m
+[34mI20180702-13:56:23.194(0)? [39mSERVER
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+Vulcanize: Adding all imports...
+=> Client modified -- refreshing

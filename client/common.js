@@ -14,12 +14,6 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "Brazil",
-			team2: "Mexico"
-		}, {
-			team1: "Belgium",
-			team2: "Japan"
-		}, {
 			team1: "Sweden",
 			team2: "Switzerland"
 		}, {
