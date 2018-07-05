@@ -23,6 +23,12 @@ Template.rankings.helpers({
 			return "sortByR2 matchSelect"
 		return "sortByR2"
 	},
+	isHighlightR3: function(){
+		var sortByType = Session.get("sortByType");
+		if(sortByType === "R3")
+			return "sortByR3 matchSelect"
+		return "sortByR3"
+	},
 	isHighlightTotal: function(){
 		var sortByType = Session.get("sortByType");
 		if(!sortByType || sortByType === "Total")
@@ -40,6 +46,9 @@ Template.rankings.events({
 	},
 	"click .sortByR2": function(event, template){
 		Session.set("sortByType", "R2");
+	},
+	"click .sortByR3": function(event, template){
+		Session.set("sortByType", "R3");
 	},
 	"click .sortByTotal": function(event, template){
 		Session.set("sortByType", "Total");
