@@ -1,0 +1,1 @@
+nohup meteor --allow-superuser &
