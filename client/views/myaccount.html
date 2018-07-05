@@ -16,6 +16,47 @@
 <template name="predictionsView">
   <div class="padding-20">
     <div>
+      <h2>Quarter Finals till Finals</h2>
+      <h3>Header Annotations</h3>
+      <p>YP - Your Prediction</p>
+      <p>AR - Actual Result</p>
+      <p>BP - Base Points</p>
+      <p>ET - Extra-Time Points</p>
+      <p>PT - Penalties Points</p>
+      <p>TP - Total Points</p>
+      <p>&nbsp;</p>
+    </div>
+    <div layout horizontal>
+      <div class="col-xs-3 border-1 font-size-18 wraptext">Match</div>
+      <div class="col-xs-9">
+        <div layout horizontal>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">YP</div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">AR</div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">BP</div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">ET</div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">PT</div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">TP</div>
+        </div>
+      </div>
+    </div>
+    {{#each getAllPredictions "R3"}}
+      <div layout horizontal>
+        <div class="col-xs-3 border-1 font-size-16 wraptext">{{team1}} vs {{team2}}</div>
+        <div class="col-xs-9">
+          <div layout horizontal>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{winner}}</div>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{actualResult}}</div>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{basePoints}}</div>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{bonus1}}</div>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{bonus2}}</div>
+            <div class="col-xs-2 border-1 font-size-16 wraptext">{{totalPoints}}</div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  <div class="padding-20">
+    <div>
       <h2>Knockout + Quarter Finals</h2>
       <h3>Header Annotations</h3>
       <p>YP - Your Prediction</p>

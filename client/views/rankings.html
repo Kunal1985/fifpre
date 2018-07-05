@@ -7,7 +7,8 @@
         <div>
           <h3>Header Annotations</h3>
           <p>GSR3 - Group Stage Round 3</p>
-          <p>KSQF - Knockout Stage + Quarter Finals</p>
+          <p>KSQF - Knockout Stage</p>
+          <p>QFTF - Quarter Finals till Finals</p>
           <p>TP - Total Points</p>
           <p>&nbsp;</p>
         </div>
@@ -19,8 +20,11 @@
             <strong class={{isHighlightR1}}>GSR3</strong>
           </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
-              <strong class={{isHighlightR2}}>KSQF</strong>
-            </div>
+              <strong class={{isHighlightR2}}>KO</strong>
+          </div>
+          <div class="col-xs-2 border-1 font-size-18 wraptext">
+              <strong class={{isHighlightR2}}>QFTF</strong>
+          </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
             <strong class={{isHighlightTotal}}>TP</strong>
           </div>
@@ -31,6 +35,7 @@
           <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR1}}">{{r1Points}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR2}}">{{r2Points}}</div>
+          <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR2}}">{{r3Points}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightTotal}}">{{totalPoints}}</div>
         </div>
         {{/each}}

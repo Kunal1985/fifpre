@@ -45,6 +45,12 @@ Template.predictionsView.helpers({
 							doc.bonus1 = genericFtns.calcETPoints(doc, actualResult);
 							doc.bonus2 = genericFtns.calcPTPoints(doc, actualResult);
 							break;
+						case "R3": 
+							doc.actualResult = actualResult.winner;
+							doc.basePoints = genericFtns.calcWinnerPoints(doc, actualResult);
+							doc.bonus1 = genericFtns.calcETPoints(doc, actualResult);
+							doc.bonus2 = genericFtns.calcPTPoints(doc, actualResult);
+							break;
 						default: break;
 					}
 					doc.totalPoints = doc.basePoints + doc.bonus1 + doc.bonus2;

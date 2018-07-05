@@ -105,6 +105,13 @@ Meteor.startup(function () {
 						currRanking.totalPoints = basePoints + bonus1 + bonus2;
 						currRanking.r2Points = currRanking.totalPoints;
 						break;
+					case "R3": 	
+						var basePoints = genericFtns.calcWinnerPoints(doc, currResult);
+						var bonus1 = genericFtns.calcETPoints(doc, currResult);
+						var bonus2 = genericFtns.calcPTPoints(doc, currResult);
+						currRanking.totalPoints = basePoints + bonus1 + bonus2;
+						currRanking.r3Points = currRanking.totalPoints;
+						break;	
 					default: break;	
 				}
 				users.find(function(currUser){
@@ -120,9 +127,12 @@ Meteor.startup(function () {
 							case "R2": 	
 								currUser.r2Points = currUser.r2Points + currRanking.r2Points;	
 								break;
+							case "R3": 	
+								currUser.r3Points = currUser.r3Points + currRanking.r3Points;	
+								break;
 							default: break;	
 						}								
-						currUser.totalPoints = currUser.r1Points + currUser.r2Points;
+						currUser.totalPoints = currUser.r1Points + currUser.r2Points + currUser.r3Points;
 						userFound = true
 					} 
 				});
@@ -138,6 +148,9 @@ Meteor.startup(function () {
 				break;
 			case "R2": 
 				users.sort(function(a,b){return b.r2Points - a.r2Points});
+				break;
+			case "R3": 
+				users.sort(function(a,b){return b.r3Points - a.r3Points});
 				break;
 			default: 
 				users.sort(function(a,b){return b.totalPoints - a.totalPoints});
