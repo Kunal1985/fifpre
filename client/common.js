@@ -147,12 +147,26 @@ Meteor.startup(function () {
 		switch(sortByType){
 			case "R1": 
 				users.sort(function(a,b){return b.r1Points - a.r1Points});
+				users[0].rankColor = "Row-1";
+				if(users[1] === users[2]){
+					users[1].rankColor = "Row-2";
+					users[2].rankColor = "Row-2";
+				} else{
+					users[1].rankColor = "Row-2";
+					users[2].rankColor = "Row-3";
+				}
 				break;
 			case "R2": 
 				users.sort(function(a,b){return b.r2Points - a.r2Points});
+				users[0].rankColor = "Row-1";
+				users[1].rankColor = "Row-2";
+				users[2].rankColor = "Row-3";
 				break;
 			case "R3": 
 				users.sort(function(a,b){return b.r3Points - a.r3Points});
+				users[0].color = "Row-1";
+				users[1].color = "Row-2";
+				users[2].color = "Row-3";
 				break;
 			default: 
 				users.sort(function(a,b){return b.totalPoints - a.totalPoints});
