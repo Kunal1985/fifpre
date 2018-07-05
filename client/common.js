@@ -120,6 +120,8 @@ Meteor.startup(function () {
 							currUser.r1Points = 0;
 						if(!currUser.r2Points)
 							currUser.r2Points = 0;
+						if(!currUser.r3Points)
+							currUser.r3Points = 0;	
 						switch(currResult.round){
 							case "R1": 
 								currUser.r1Points = currUser.r1Points + currRanking.r1Points;
