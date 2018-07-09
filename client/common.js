@@ -14,17 +14,11 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "Uruguay",
-			team2: "France"
-		}, {
-			team1: "Brazil",
+			team1: "France",
 			team2: "Belgium"
 		}, {
-			team1: "Sweden",
+			team1: "Croatia",
 			team2: "England"
-		}, {
-			team1: "Russia",
-			team2: "Croatia"
 		}];
 	}
 	genericFtns.getMatchListForAll = function(){
@@ -148,7 +142,7 @@ Meteor.startup(function () {
 			case "R1": 
 				users.sort(function(a,b){return b.r1Points - a.r1Points});
 				users[0].rankColor = "Row-1";
-				if(users[1] === users[2]){
+				if(users[1].r1Points === users[2].r1Points){
 					users[1].rankColor = "Row-2";
 					users[2].rankColor = "Row-2";
 				} else{

@@ -13,7 +13,7 @@
           <p>&nbsp;</p>
         </div>
         <div layout horizontal>
-          <div class="col-xs-6 border-1 font-size-18 wraptext">
+          <div class="col-xs-4 border-1 font-size-18 wraptext">
             <strong>Users</strong>
           </div>
           <div class="col-xs-2 border-1 font-size-18 wraptext">
@@ -31,8 +31,8 @@
         </div>
 
         {{#each getResultsList}}
-        <div layout horizontal class={{rowColor}}>
-          <div class="col-xs-6 border-1 font-size-16 wraptext">{{userEmail}}</div>
+        <div layout horizontal class="{{rankColor}}">
+          <div class="col-xs-4 border-1 font-size-16 wraptext">{{userEmail}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR1}}">{{r1Points}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR2}}">{{r2Points}}</div>
           <div class="col-xs-2 border-1 font-size-16 wraptext {{isHighlightR3}}">{{r3Points}}</div>
