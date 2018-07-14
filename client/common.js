@@ -14,11 +14,11 @@ Meteor.startup(function () {
   genericFtns = {};
   genericFtns.getMatchList = function(){
     return [{
-			team1: "France",
-			team2: "Belgium"
-		}, {
-			team1: "Croatia",
+			team1: "Belgium",
 			team2: "England"
+		}, {
+			team1: "France",
+			team2: "Croatia"
 		}];
 	}
 	genericFtns.getMatchListForAll = function(){
