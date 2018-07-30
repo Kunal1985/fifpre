@@ -938,3 +938,366 @@ Vulcanize: Adding all imports...
 => Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
 Vulcanize: Adding all imports...
 => Client modified -- refreshing
+[34mI20180714-04:13:38.671(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180714-04:13:38.676(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180714-04:13:38.676(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180714-04:13:38.676(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180714-04:13:38.676(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180714-04:13:38.677(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180714-04:13:38.678(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180714-06:52:38.550(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180714-06:52:38.551(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180714-06:52:38.552(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180716-04:06:46.027(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180716-04:06:46.032(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180716-04:06:46.032(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180716-04:06:46.033(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180716-13:02:23.125(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180716-13:02:23.128(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180716-13:02:23.128(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180716-13:02:23.129(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180717-04:36:51.031(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180717-04:36:51.035(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180717-04:36:51.036(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180717-04:36:51.037(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180717-04:36:51.037(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180717-04:36:51.037(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180717-04:36:51.037(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180717-04:36:51.038(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180717-04:36:51.038(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180717-04:36:51.038(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180717-04:36:51.039(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180717-04:36:51.039(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180717-07:22:37.415(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180717-07:22:37.417(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180717-07:22:37.417(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180717-07:22:37.417(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180717-07:22:37.417(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180717-07:22:37.417(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180717-07:22:37.418(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180717-13:33:13.234(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180717-13:33:13.236(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180717-13:33:13.236(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180717-13:33:13.236(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180717-13:33:13.236(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180717-13:33:13.237(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180718-04:37:18.826(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180718-04:37:18.830(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180718-04:37:18.830(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180718-04:37:18.831(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180718-04:37:18.832(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180718-13:08:43.798(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180718-13:08:43.803(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180718-13:08:43.803(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180718-13:08:43.803(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180718-13:08:43.803(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180718-13:08:43.804(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180718-13:08:43.805(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180718-15:33:14.661(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180718-15:33:14.666(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180718-15:33:14.666(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180718-15:33:14.666(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180718-15:33:14.666(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180718-15:33:14.666(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180718-15:33:14.667(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180718-15:33:14.667(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180718-15:33:14.667(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180718-15:33:14.668(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180718-15:33:14.668(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180718-15:33:14.668(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180719-04:36:46.644(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180719-04:36:46.653(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180719-04:36:46.654(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180720-04:06:34.871(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180720-04:06:34.875(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180720-04:06:34.875(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180720-04:06:34.875(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180720-04:06:34.875(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180720-04:06:34.875(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180720-04:06:34.876(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180720-12:06:53.566(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180720-12:06:53.569(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180720-12:06:53.570(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180720-12:06:53.571(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180720-12:06:53.571(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180720-12:06:53.571(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180720-12:06:53.571(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180721-07:19:29.519(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180721-07:19:29.521(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180721-07:19:29.522(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180721-07:19:29.522(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180721-07:19:29.522(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180721-07:19:29.522(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180721-07:19:29.523(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180721-07:19:29.523(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180721-07:19:29.523(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180721-07:19:29.524(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180721-07:19:29.524(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180721-07:19:29.524(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180721-08:21:36.119(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180721-08:21:36.122(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180721-08:21:36.122(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180721-08:21:36.122(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180721-08:21:36.122(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180721-08:21:36.123(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180721-08:21:36.123(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180721-08:21:36.123(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180721-08:21:36.123(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180721-08:21:36.123(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180721-08:21:36.124(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180721-08:21:36.124(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180722-06:12:54.604(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180722-06:12:54.606(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180722-06:12:54.607(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180722-06:12:54.607(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180722-06:12:54.607(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180722-06:12:54.607(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180722-14:27:42.695(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180722-14:27:42.697(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180722-14:27:42.697(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180722-14:27:42.697(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180722-14:27:42.698(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180723-04:39:48.669(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180723-04:39:48.673(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180723-04:39:48.674(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180723-04:39:48.675(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180723-04:39:48.675(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180723-04:39:48.675(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180723-04:39:48.675(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180723-06:25:32.253(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180723-06:25:32.253(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180723-06:25:32.254(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180723-16:18:04.511(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180723-16:18:04.513(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180723-16:18:04.514(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180723-16:18:04.515(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180723-16:18:04.515(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180723-16:18:04.515(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180724-04:16:01.372(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180724-04:16:01.374(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180724-04:16:01.374(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180724-04:16:01.375(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180724-04:16:01.375(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180724-04:16:01.375(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180724-04:16:01.375(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180724-04:16:01.375(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180724-04:16:01.376(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180724-04:16:01.377(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180724-04:16:01.377(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180724-04:16:01.377(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+[34mI20180724-13:10:31.391(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180724-13:10:31.393(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180724-13:10:31.393(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180724-13:10:31.394(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180725-04:49:17.923(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180725-04:49:17.924(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180725-04:49:17.925(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180725-04:49:17.925(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180725-04:49:17.925(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180726-06:38:23.226(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180726-06:38:23.228(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180726-06:38:23.228(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180726-06:38:23.228(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180726-06:38:23.228(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180726-06:38:23.228(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180726-06:38:23.229(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180726-06:38:23.229(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180726-06:38:23.229(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180726-06:38:23.230(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180726-06:38:23.230(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180726-06:38:23.231(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180727-04:21:48.571(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180727-04:21:48.574(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180727-04:21:48.575(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180727-04:21:48.575(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180727-13:15:21.271(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180727-13:15:21.274(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180727-13:15:21.274(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180727-13:15:21.275(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180727-13:15:21.275(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180727-13:15:21.275(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180727-13:15:21.275(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180727-13:15:21.275(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180727-13:15:21.276(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180727-13:15:21.276(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180727-13:15:21.276(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180727-13:15:21.276(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180729-06:16:19.797(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180729-06:16:19.802(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180729-06:16:19.802(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180729-06:16:19.803(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180729-06:16:19.803(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180729-06:16:19.803(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180729-06:16:19.803(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180729-06:16:19.804(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180729-06:16:19.804(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180729-06:16:19.804(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180729-06:16:19.804(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180729-06:16:19.805(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
+=> Meteor 1.7.0.3 is available. Update this project with 'meteor update'.
+[34mI20180730-04:11:01.846(0)? [39mspiderable: phantomjs not installed. Download and install from http://phantomjs.org/
+[34mW20180730-04:11:01.851(0)? (STDERR) [39m[35mError: Meteor code must always run within a Fiber. Try wrapping callbacks that you pass to non-Meteor libraries with Meteor.bindEnvironment.[39m
+[34mW20180730-04:11:01.851(0)? (STDERR) [39m[35m    at Object.Meteor._nodeCodeMustBeInFiber (packages/meteor/dynamics_nodejs.js:9:1)[39m
+[34mW20180730-04:11:01.851(0)? (STDERR) [39m[35m    at [object Object]._.extend.get (packages/meteor/dynamics_nodejs.js:21:1)[39m
+[34mW20180730-04:11:01.852(0)? (STDERR) [39m[35m    at [object Object].RouteController.lookupOption (packages/iron:router/lib/route_controller.js:66:1)[39m
+[34mW20180730-04:11:01.852(0)? (STDERR) [39m[35m    at new Controller.extend.constructor (packages/iron:router/lib/route_controller.js:26:1)[39m
+[34mW20180730-04:11:01.852(0)? (STDERR) [39m[35m    at [object Object].ctor (packages/iron:core/lib/iron_core.js:88:1)[39m
+[34mW20180730-04:11:01.853(0)? (STDERR) [39m[35m    at Function.Router.createController (packages/iron:router/lib/router.js:201:1)[39m
+[34mW20180730-04:11:01.853(0)? (STDERR) [39m[35m    at Function.Router.dispatch (packages/iron:router/lib/router_server.js:39:1)[39m
+[34mW20180730-04:11:01.853(0)? (STDERR) [39m[35m    at Object.router (packages/iron:router/lib/router.js:15:1)[39m
+[34mW20180730-04:11:01.854(0)? (STDERR) [39m[35m    at next (/root/.meteor/packages/webapp/.1.2.0.jffefe++os+web.browser+web.cordova/npm/node_modules/connect/lib/proto.js:190:15)[39m
+[34mW20180730-04:11:01.854(0)? (STDERR) [39m[35m    at packages/spiderable/spiderable_server.js:123:1[39m
